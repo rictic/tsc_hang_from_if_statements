@@ -1,0 +1,14 @@
+{
+  "name": "pegjs_repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node gen_repro.js && prettier --write example_repro.ts",
+    "hang_typescript": "tsc example_repro.ts --noEmit"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.1",
+    "typescript": "^3.5.0-dev.20190521"
+  }
+}
